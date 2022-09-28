@@ -10,7 +10,7 @@ jobs:
     name: Create Release
     runs-on: windows-2019
     env:
-      libraryName: chemfiles
+      libraryName: flann
       cmakeInstallationPath: flann-installation
       tagName: 1.9.1
       mingwTargetZip: flann-${{ github.ref_name }}-x86_64-posix-seh-rev0-8.1.0.zip
